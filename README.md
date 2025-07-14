@@ -11,7 +11,7 @@ This is a Kotlin Multiplatform project using Ktor for making network requests. I
 
 ## How to Use
 
-1. Clone the project https://github.com/itsmhamza/Ktor_Tutorial_Kotlin_Multiplatfoam.git
+1. Clone the project git clone https://github.com/itsmhamza/Ktor_Tutorial_Kotlin_Multiplatfoam.git
 2. Open in Android Studio.
 3. Build and run the app on Android or iOS.
 
