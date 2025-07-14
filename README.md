@@ -1,14 +1,26 @@
-This is a Kotlin Multiplatform project targeting Android, iOS, Desktop.
+# Ktor KMP Project
 
-* `/composeApp` is for code that will be shared across your Compose Multiplatform applications.
-  It contains several subfolders:
-  - `commonMain` is for code that’s common for all targets.
-  - Other folders are for Kotlin code that will be compiled for only the platform indicated in the folder name.
-    For example, if you want to use Apple’s CoreCrypto for the iOS part of your Kotlin app,
-    `iosMain` would be the right folder for such calls.
+This is a Kotlin Multiplatform project using Ktor for making network requests. It works on Android, iOS, and other platforms.
 
-* `/iosApp` contains iOS applications. Even if you’re sharing your UI with Compose Multiplatform, 
-  you need this entry point for your iOS app. This is also where you should add SwiftUI code for your project.
+## Features
 
+- Uses Ktor client for API calls
+- Supports multiple platforms (Android, iOS)
+- Uses Kotlin coroutines
+- JSON parsing with kotlinx.serialization
 
-Learn more about [Kotlin Multiplatform](https://www.jetbrains.com/help/kotlin-multiplatform-dev/get-started.html)…
+## How to Use
+
+1. Clone the project https://github.com/itsmhamza/Ktor_Tutorial_Kotlin_Multiplatfoam.git
+2. Open in Android Studio.
+3. Build and run the app on Android or iOS.
+
+## Folder Structure
+
+- shared: contains common code
+- androidApp: Android-specific code
+- iosApp: iOS-specific code
+
+## License
+
+MIT License
